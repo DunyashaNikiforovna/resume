@@ -2,4 +2,4 @@
 
 ##результат вы можете посмотреть тут 
 
-[Моя первая работа на HTML & CSS]([Duck Duck Go](https://duckduckgo.com).
+[Моя первая работа на HTML & CSS](https://dunyashanikiforovna.github.io/resume/).
