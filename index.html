@@ -6,122 +6,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="html, css, resume" />
     <meta name="description" content="Это мой первый сайт" />
+    <link rel="stylesheet" href="styles.css" />
+
     <title>Резюме</title>
   </head>
   <body>
-    <img src="lkj.jpg" alt="homework" />
+    <div class="container">
+      <div class="info">
+        <img src="lkj.jpg" alt="homework" class="avatar" />
 
-    <h1>Дуняшя Никифоровна</h1>
+        <div class="info-text">
+          <h1>Арестова Алина</h1>
 
-    <p>
-      <strong>18 марта 2022 года</strong> я записалась на бесплатный курс по
-      HTML & CSS в <strong> Result School</strong>
-    </p>
-    <p>
-      Я люблю <em>путешествовать , заниматься йогой и медитировать</em> Хочу
-      научиться <em> программировать</em>
-    </p>
+          <p>
+            <strong>18 марта 2022 года</strong> я записалась на бесплатный курс
+            по HTML & CSS в <strong> Result School</strong>
+          </p>
+          <p>
+            Я люблю
+            <em>путешествовать , заниматься йогой и медитировать</em>. Хочу
+            научиться <em> программировать</em>
+          </p>
 
-    <h4>Список социальныйх сетей</h4>
+          <h4>Список социальныйх сетей</h4>
+          <ul class="link-list"></ul>
+          <a
+            href="https://www.instagram.com/invites/contact/?i=q9o0fwrwm19m&utm_content=nei1q2v"
+            target="_blank"
+          >
+            Instagram
+          </a>
+          |
+          <a
+            href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=user_system_sheet"
+            target="_blank"
+          >
+            Instagram
+          </a>
 
-    <a
-      href="https://www.youtube.com/channel/UC4X-FlMRabBImVGxdIAcnlQ"
-      target="_blank"
-    >
-      Youtube
-    </a>
-    |
-    <a
-      href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=user_system_sheet"
-      target="_blank"
-    >
-      Instagram
-    </a>
-
-    |
-    <a href="https://t.me/Dunyasha_Nikiforovna" target="_blank"> Telegram </a>
-
-    <h2>Мои Хобби</h2>
-
-    <ol>
-      <li>Танцы</li>
-      <li>Изготовление предметов интерьера</li>
-      <li>Нейробиология</li>
-      <li>Психотерапия</li>
-      <li>Блоггерство</li>
-    </ol>
-
-    <h2>Опыт работы</h2>
-    <table width="500">
-      <thead>
-        <tr>
-          <th>Название</th>
-          <th>Должность</th>
-          <th>Год</th>
-        </tr>
-      </thead>
-      <tr>
-        <td>ООО "Куба"</td>
-        <td>артист балета</td>
-        <td>2009-2010</td>
-      </tr>
-
-      <tr>
-        <td>ООО "Навигатор"</td>
-        <td>артист балета</td>
-        <td>2010-2012</td>
-      </tr>
-
-      <tr>
-        <td>ООО "Ред Бар</td>
-        <td>артист балета</td>
-        <td>2012-2014</td>
-      </tr>
-
-      <tr>
-        <td>Брянский районный суд</td>
-        <td>Секретарь судебного заседания</td>
-        <td>2014-2015</td>
-      </tr>
-
-      <tr>
-        <td>Люкс Фитнес</td>
-        <td>Администратор</td>
-        <td>2015-2016</td>
-      </tr>
-      <tr>
-        <td>Horizon club</td>
-        <td>артист балета</td>
-        <td>2016-2018</td>
-      </tr>
-
-      <tr>
-        <td>Mask Clab</td>
-        <td>Администратор</td>
-        <td>2019-2020</td>
-      </tr>
-    </table>
-
-    <h2>Связаться со мной</h2>
-
-    <form>
-      <div>
-        <label for="text2">Ваше имя</label>
-        <input type="text" id="text2" placeholder="Введите имя" />
-      </div>
-      <div>
-        <label for="email">Ваш email</label>
-        <input type="email" id="email" placeholder="Введите email" />
+          |
+          <a href="https://t.me/Dunyasha_Nikiforovna" target="_blank">
+            Telegram
+          </a>
+        </div>
       </div>
 
-      <div>
-        <label for="massage">Ваше сообщение </label>
-        <br />
-        <textarea id="massage" placeholder="Введите сообщение..."></textarea>
+      <div class="card bg-green">
+        <h2>Мои Хобби</h2>
+        <link rel="stylesheet" href="styles.css" />
+        <ol class="list">
+          <li>Танцы</li>
+          <li>Изготовление предметов интерьера</li>
+          <li>Нейробиология</li>
+          <li>Психотерапия</li>
+          <li>Блоггерство</li>
+        </ol>
       </div>
-      <div>
-        <button type="submit">Отправить!</button>
+
+      <div class="card bg-yellow">
+        <h2>Опыт работы</h2>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Название</th>
+              <th>Должность</th>
+              <th>Год</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>ООО "Куба"</td>
+            <td>артист балета</td>
+            <td>2009-2010</td>
+          </tr>
+
+          <tr>
+            <td>ООО "Навигатор"</td>
+            <td>артист балета</td>
+            <td>2010-2012</td>
+          </tr>
+
+          <tr>
+            <td>ООО "Ред Бар</td>
+            <td>артист балета</td>
+            <td>2012-2014</td>
+          </tr>
+
+          <tr>
+            <td>Брянский районный суд</td>
+            <td>Секретарь судебного заседания</td>
+            <td>2014-2015</td>
+          </tr>
+
+          <tr>
+            <td>Люкс Фитнес</td>
+            <td>Администратор</td>
+            <td>2015-2016</td>
+          </tr>
+          <tr>
+            <td>Horizon club</td>
+            <td>артист балета</td>
+            <td>2016-2018</td>
+          </tr>
+
+          <tr>
+            <td>Mask Clab</td>
+            <td>Администратор</td>
+            <td>2019-2020</td>
+          </tr>
+        </table>
       </div>
-    </form>
+      <div class="card bg-green">
+        <h2>Мои видео на Youtube</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://youtu.be/lgILmwUablM" target="_blank"
+              >Dream catcher handmade</a
+            >
+          </li>
+          <li>
+            <a href="https://youtu.be/4t3l-SpxE4U" target="_blank"
+              >Night lamp handmade</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="text2">Ваше имя:</label>
+            <input type="text" id="text2" placeholder="Введите имя" />
+          </div>
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="massage">Ваше сообщение:</label>
+          <textarea
+            id="massage"
+            cols="30"
+            rows="5"
+            placeholder="Введите сообщение..."
+          ></textarea>
+        </div>
+        <button class="btn" type="submit">Отправить!</button>
+      </form>
+    </div>
   </body>
 </html>
